@@ -1,0 +1,15 @@
+﻿@model SysInventario.EN.Categoria
+
+<h1>Formulario para crear categoria</h1>
+
+<hr />
+
+<form asp-action="Create">
+	<label>Nombre</label>
+	<input asp-for="Nombre"/>
+	<label>Estado</label>
+	<input asp-for="Estado"/>
+	<label>IdCategoria</label>
+	<input asp-for="IdCategoria"/>
+	<input type="submit" />
+</form>

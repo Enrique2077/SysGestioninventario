@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SysInventario.DAL\SysInventario.DAL.csproj" />
+    <ProjectReference Include="..\SysInventario.EN\SysInventario.EN.csproj" />
+  </ItemGroup>
+
+</Project>

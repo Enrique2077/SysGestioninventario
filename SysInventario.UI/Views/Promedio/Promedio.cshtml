@@ -1,0 +1,21 @@
+﻿<form asp-action="Promedio">
+	<center>
+	<h2>Promedio de Notas</h2>
+	<label>Digite las notas</label>
+	</center>
+	<center>
+	<br />
+	<input name= "N1"/>
+	<br />
+	<input name= "N2"/> 
+	<br />
+	<input name= "N3"/>
+	<br />
+	<input name= "N4"/> 
+	<br />
+	<input name= "N5"/>
+	<hr />
+	<button type= "submit">Promediar</button>
+	<span>@ViewData["Result"]</span>
+	</center>
+</form>

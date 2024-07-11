@@ -1,0 +1,17 @@
+﻿<form asp-action="Encriptar">
+	<h2>Encriptacion de la palabra</h2>
+	<label>Ingrese palabra</label>
+	<input name =pPalabra /> 
+	<button type= "submit">Encriptar</button>
+	<span>@ViewData["Palabra"]</span>
+</form>
+<hr />
+ <form asp-action="Desencriptar">
+	<h2>Desencriptacion de la palabra</h2>
+	<label>Ingrese palabra</label>
+	<input name =pPalabras /> 
+	<button type= "submit">Desencriptar</button>
+	<span>@ViewData["Palabras"]</span>
+</form>
+
+
